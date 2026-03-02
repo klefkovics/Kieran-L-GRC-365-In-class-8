@@ -1,17 +1,71 @@
 /* Style the body to set default styles for the page.*/
 * {
   padding: 0;
-  margin: 0;
+  margin: 5px;
 }
 
 ul, ol {
-  margin-left: 25px;
+  margin-left: 40px;
 }
 /*select html and set the background color, color, font family with fallback, and font size. */
+html {
+  background-color: #3b3c3e;
+  color: #ffffff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  margin-left: 25px;
+}
+
 /*change img height to 300px and width to auto*/
+img {
+  height: 600px;
+  width: auto;
+}
+
 /*change subtitle font size to larger than the default. */
+h3 {
+  font-size: 24px;
+}
+
 /*Change the times to a bold font-weight*/
+.time {
+  font-weight: bold;
+  color: #a0f65f;
+}
+
 /*select the li inside of ingredients to list-style: square*/
+ul li {
+  list-style: square;
+}
+
 /*select the times inside of the lists and change to a different color*/
+ol .time {
+  color: #a0f65f;
+}
+
 /*select the link and change it's color; */
+a:link {
+  color: #ff5757;
+}
+
+a:visited {
+  color: #be5ecb;
+}
+
+a:hover {
+  color: #ffb835;
+}
+
+a:active {
+  color: azure;
+}
+
 /*select h1 and h2 elements and change their case to uppercase*/
+h1, h2 {
+  text-transform: uppercase;
+  color: #ffb835;
+}
+
+h1, h3, .author {
+  text-align: center;
+}
